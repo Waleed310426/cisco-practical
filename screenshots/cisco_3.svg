@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" rx="10" fill="#000000" />
+  
+  <!-- Window Header -->
+  <rect width="800" height="30" rx="10" fill="#dddddd" />
+  <rect x="0" y="15" width="800" height="15" fill="#dddddd" />
+  <text x="20" y="20" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">Command Prompt - PC-01</text>
+  
+  <!-- Window Controls -->
+  <rect x="760" y="5" width="20" height="20" fill="#ff5f56" rx="2" />
+  <path d="M765 10 L775 20 M775 10 L765 20" stroke="#fff" stroke-width="2"/>
+
+  <!-- CLI Content -->
+  <g font-family="Consolas, Courier New, monospace" font-size="14" fill="#cccccc">
+    <text x="20" y="60">Packet Tracer PC Command Line 1.0</text>
+    
+    <text x="20" y="100">C:\></text>
+    <text x="60" y="100" fill="#ffffff">ipconfig</text>
+    
+    <text x="20" y="130">FastEthernet0 Connection:(default port)</text>
+    
+    <text x="40" y="150">Connection-specific DNS Suffix..:</text>
+    <text x="40" y="170">Link-local IPv6 Address.........: FE80::201:C7FF:FE6E:1D81</text>
+    <text x="40" y="190">IPv4 Address....................: 192.168.1.10</text>
+    <text x="40" y="210">Subnet Mask.....................: 255.255.255.0</text>
+    <text x="40" y="230">Default Gateway.................: 192.168.1.1</text>
+    
+    <text x="20" y="270">C:\></text>
+    <text x="60" y="270" fill="#ffffff">ping 192.168.2.11</text>
+    
+    <text x="20" y="300">Pinging 192.168.2.11 with 32 bytes of data:</text>
+    
+    <text x="20" y="330">Reply from 192.168.2.11: bytes=32 time=2ms TTL=127</text>
+    <text x="20" y="350">Reply from 192.168.2.11: bytes=32 time=1ms TTL=127</text>
+    <text x="20" y="370">Reply from 192.168.2.11: bytes=32 time=1ms TTL=127</text>
+    <text x="20" y="390">Reply from 192.168.2.11: bytes=32 time=2ms TTL=127</text>
+    
+    <text x="20" y="430">Ping statistics for 192.168.2.11:</text>
+    <text x="40" y="450">Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</text>
+    <text x="20" y="470">Approximate round trip times in milli-seconds:</text>
+    <text x="40" y="490">Minimum = 1ms, Maximum = 2ms, Average = 1ms</text>
+    
+    <text x="20" y="530">C:\></text>
+    <!-- Cursor block -->
+    <rect x="60" y="518" width="8" height="15" fill="#cccccc">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>

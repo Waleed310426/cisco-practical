@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f0f2f5" />
+  
+  <!-- Connections -->
+  <line x1="400" y1="150" x2="250" y2="300" stroke="#ff4757" stroke-width="4" stroke-dasharray="10,5" />
+  <line x1="400" y1="150" x2="550" y2="300" stroke="#ff4757" stroke-width="4" stroke-dasharray="10,5" />
+  
+  <line x1="250" y1="300" x2="150" y2="450" stroke="#2ed573" stroke-width="3" />
+  <line x1="250" y1="300" x2="350" y2="450" stroke="#2ed573" stroke-width="3" />
+  
+  <line x1="550" y1="300" x2="450" y2="450" stroke="#2ed573" stroke-width="3" />
+  <line x1="550" y1="300" x2="650" y2="450" stroke="#2ed573" stroke-width="3" />
+
+  <!-- Core Router -->
+  <g transform="translate(360, 110)">
+    <circle cx="40" cy="40" r="35" fill="#1e90ff" stroke="#000" stroke-width="2"/>
+    <path d="M25 40 L55 40 M40 25 L40 55 M25 25 L55 55 M25 55 L55 25" stroke="#fff" stroke-width="3"/>
+    <text x="40" y="95" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f3542">Core-Router</text>
+  </g>
+
+  <!-- Switch 1 -->
+  <g transform="translate(210, 270)">
+    <rect width="80" height="50" rx="10" fill="#2ed573" stroke="#000" stroke-width="2"/>
+    <path d="M20 25 L60 25 M60 25 L50 15 M60 25 L50 35 M20 35 L60 35 M20 35 L30 25 M20 35 L30 45" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="40" y="70" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f3542">Switch-01</text>
+  </g>
+
+  <!-- Switch 2 -->
+  <g transform="translate(510, 270)">
+    <rect width="80" height="50" rx="10" fill="#2ed573" stroke="#000" stroke-width="2"/>
+    <path d="M20 25 L60 25 M60 25 L50 15 M60 25 L50 35 M20 35 L60 35 M20 35 L30 25 M20 35 L30 45" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="40" y="70" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f3542">Switch-02</text>
+  </g>
+
+  <!-- PC 1 -->
+  <g transform="translate(120, 440)">
+    <rect width="60" height="40" rx="5" fill="#747d8c" stroke="#000" stroke-width="2"/>
+    <rect width="50" height="30" x="5" y="5" fill="#dcdde1"/>
+    <rect width="30" height="10" x="15" y="40" fill="#747d8c"/>
+    <rect width="40" height="5" x="10" y="50" fill="#747d8c"/>
+    <text x="30" y="75" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f3542">PC-01</text>
+    <text x="30" y="90" font-family="Arial" font-size="12" text-anchor="middle" fill="#57606f">192.168.1.10</text>
+  </g>
+
+  <!-- PC 2 -->
+  <g transform="translate(320, 440)">
+    <rect width="60" height="40" rx="5" fill="#747d8c" stroke="#000" stroke-width="2"/>
+    <rect width="50" height="30" x="5" y="5" fill="#dcdde1"/>
+    <rect width="30" height="10" x="15" y="40" fill="#747d8c"/>
+    <rect width="40" height="5" x="10" y="50" fill="#747d8c"/>
+    <text x="30" y="75" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f3542">PC-02</text>
+    <text x="30" y="90" font-family="Arial" font-size="12" text-anchor="middle" fill="#57606f">192.168.1.11</text>
+  </g>
+
+  <!-- PC 3 -->
+  <g transform="translate(420, 440)">
+    <rect width="60" height="40" rx="5" fill="#747d8c" stroke="#000" stroke-width="2"/>
+    <rect width="50" height="30" x="5" y="5" fill="#dcdde1"/>
+    <rect width="30" height="10" x="15" y="40" fill="#747d8c"/>
+    <rect width="40" height="5" x="10" y="50" fill="#747d8c"/>
+    <text x="30" y="75" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f3542">PC-03</text>
+    <text x="30" y="90" font-family="Arial" font-size="12" text-anchor="middle" fill="#57606f">192.168.2.10</text>
+  </g>
+
+  <!-- PC 4 -->
+  <g transform="translate(620, 440)">
+    <rect width="60" height="40" rx="5" fill="#747d8c" stroke="#000" stroke-width="2"/>
+    <rect width="50" height="30" x="5" y="5" fill="#dcdde1"/>
+    <rect width="30" height="10" x="15" y="40" fill="#747d8c"/>
+    <rect width="40" height="5" x="10" y="50" fill="#747d8c"/>
+    <text x="30" y="75" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f3542">PC-04</text>
+    <text x="30" y="90" font-family="Arial" font-size="12" text-anchor="middle" fill="#57606f">192.168.2.11</text>
+  </g>
+
+  <!-- Title / Legend -->
+  <text x="30" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#2f3542">Cisco Packet Tracer - Network Topology</text>
+  <rect x="30" y="60" width="180" height="80" rx="5" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="40" y="80" font-family="Arial" font-size="14" font-weight="bold" fill="#2f3542">Legend:</text>
+  <line x1="40" y1="100" x2="70" y2="100" stroke="#ff4757" stroke-width="4" stroke-dasharray="5,3" />
+  <text x="80" y="105" font-family="Arial" font-size="12" fill="#2f3542">Trunk Link (Fiber)</text>
+  <line x1="40" y1="120" x2="70" y2="120" stroke="#2ed573" stroke-width="3" />
+  <text x="80" y="125" font-family="Arial" font-size="12" fill="#2f3542">Access Link (Copper)</text>
+
+</svg>

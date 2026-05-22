@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" rx="10" fill="#1e1e1e" />
+  
+  <!-- Window Header -->
+  <rect width="800" height="30" rx="10" fill="#333333" />
+  <rect x="0" y="15" width="800" height="15" fill="#333333" /> <!-- Cover bottom rounded corners -->
+  <text x="20" y="20" font-family="Arial" font-size="12" fill="#ffffff">Core-Router - CLI</text>
+  
+  <!-- Window Controls -->
+  <circle cx="770" cy="15" r="6" fill="#ff5f56" />
+  <circle cx="750" cy="15" r="6" fill="#ffbd2e" />
+  <circle cx="730" cy="15" r="6" fill="#27c93f" />
+
+  <!-- CLI Content -->
+  <g font-family="Courier New, monospace" font-size="14" fill="#00ff00">
+    <text x="20" y="60">System Bootstrap, Version 15.1(4)M4, RELEASE SOFTWARE (fc1)</text>
+    <text x="20" y="80">Technical Support: http://www.cisco.com/techsupport</text>
+    <text x="20" y="100">Copyright (c) 1986-2021 by cisco Systems, Inc.</text>
+    
+    <text x="20" y="140">Press RETURN to get started!</text>
+    
+    <text x="20" y="180">Router></text>
+    <text x="90" y="180" fill="#ffffff">enable</text>
+    
+    <text x="20" y="200">Router#</text>
+    <text x="90" y="200" fill="#ffffff">configure terminal</text>
+    <text x="20" y="220">Enter configuration commands, one per line.  End with CNTL/Z.</text>
+    
+    <text x="20" y="240">Router(config)#</text>
+    <text x="140" y="240" fill="#ffffff">hostname Core-Router</text>
+    
+    <text x="20" y="260">Core-Router(config)#</text>
+    <text x="180" y="260" fill="#ffffff">interface GigabitEthernet0/0</text>
+    
+    <text x="20" y="280">Core-Router(config-if)#</text>
+    <text x="200" y="280" fill="#ffffff">ip address 192.168.1.1 255.255.255.0</text>
+    
+    <text x="20" y="300">Core-Router(config-if)#</text>
+    <text x="200" y="300" fill="#ffffff">no shutdown</text>
+    
+    <text x="20" y="320">%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up</text>
+    <text x="20" y="340">%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up</text>
+    
+    <text x="20" y="360">Core-Router(config-if)#</text>
+    <text x="200" y="360" fill="#ffffff">exit</text>
+    
+    <text x="20" y="380">Core-Router(config)#</text>
+    <text x="180" y="380" fill="#ffffff">router ospf 1</text>
+    
+    <text x="20" y="400">Core-Router(config-router)#</text>
+    <text x="240" y="400" fill="#ffffff">network 192.168.1.0 0.0.0.255 area 0</text>
+
+    <text x="20" y="420">Core-Router(config-router)#</text>
+    <text x="240" y="420" fill="#ffffff">network 192.168.2.0 0.0.0.255 area 0</text>
+    
+    <text x="20" y="440">Core-Router(config-router)#</text>
+    <text x="240" y="440" fill="#ffffff">end</text>
+    
+    <text x="20" y="460">Core-Router#</text>
+    <text x="120" y="460" fill="#ffffff">copy running-config startup-config</text>
+    <text x="20" y="480">Destination filename [startup-config]? </text>
+    <text x="20" y="500">Building configuration...</text>
+    <text x="20" y="520">[OK]</text>
+    
+    <text x="20" y="550">Core-Router#</text>
+    <!-- Cursor block -->
+    <rect x="120" y="538" width="8" height="15" fill="#00ff00">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
